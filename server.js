@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 
 app.use('/jobs', routes.jobs)
 app.use('/interviews', routes.interviews)
+app.use('/conferences', routes.conferences)
 
 app.listen(PORT, () => {
     console.log(`Listening on Port: ${PORT}`)
