@@ -1,3 +1,5 @@
 module.exports = {
-    Job: require('./Job')
+    Job: require('./Job'),
+    Conference: require('./Conference'),
+    Interview: require('./Interview')
 }
