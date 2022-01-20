@@ -1,3 +1,3 @@
 module.exports = {
-    applied: require('./applied.routes')
+    jobs: require('./jobs.routes')
 }

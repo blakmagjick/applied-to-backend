@@ -1,3 +1,3 @@
 module.exports = {
-    Job: require('./Applied')
+    Job: require('./Job')
 }

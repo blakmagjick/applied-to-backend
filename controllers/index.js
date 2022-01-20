@@ -1,3 +1,3 @@
 module.exports = {
-    applied: require('./applied.ctrls')
+    jobs: require('./jobs.ctrls')
 }
