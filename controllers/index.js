@@ -1,3 +1,4 @@
 module.exports = {
-    jobs: require('./jobs.ctrls')
+    jobs: require('./jobs.ctrls'),
+    interviews: require('./interviews.ctrls')
 }
