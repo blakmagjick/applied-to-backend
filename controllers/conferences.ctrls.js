@@ -1,7 +1,7 @@
 const db = require('../models')
 
 const index = (req, res) => {
-    db.Conference.find({}, (error, sonferences) => {
+    db.Conference.find({}, (error, conferences) => {
         if (error) return res.status(400).json({error: error.message})
 
         return res.status(200).json(conferences)

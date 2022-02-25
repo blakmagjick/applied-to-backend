@@ -1,5 +1,5 @@
 module.exports = {
-    jobs: require('./jobs.routes'),
+    conferences: require('./conferences.routes'),
     interviews: require('./interviews.routes'),
-    conferences: require('./conferences.routes')
+    jobs: require('./jobs.routes')
 }

@@ -11,9 +11,9 @@ app.get('/', (req, res) => {
     res.send('Route connected')
 })
 
-app.use('/jobs', routes.jobs)
-app.use('/interviews', routes.interviews)
 app.use('/conferences', routes.conferences)
+app.use('/interviews', routes.interviews)
+app.use('/jobs', routes.jobs)
 
 app.listen(PORT, () => {
     console.log(`Listening on Port: ${PORT}`)
